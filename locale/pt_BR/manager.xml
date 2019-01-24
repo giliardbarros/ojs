@@ -85,7 +85,13 @@
 	<message key="manager.sections.hideTocTitle">Omitir o título desta seção no sumário da edição.</message>
 	<message key="manager.sections.identifyType">Como metadado do artigo, identificar itens nesta seção como</message>
 	<message key="manager.sections.identifyTypeExamples">(Exemplo: "Avaliado pelos pares", "Artigo não avaliado pelos pares", "Artigo de convidado", etc.)</message>
+    <message key="manager.setup.emailBounceAddress">Endereço de retorno</message>
+ <message key="manager.setup.disableUserRegistration">Desabilitar o cadastro de usuários</message>
+<message key="manager.setup.emailBounceAddress.description">Qualquer mensagem não entregue resultará em uma mensagem de erro que será enderçada a este destinatário.</message>
+<message key="manager.setup.emailSignatureDescription">Os modelos de mensagens são enviados pelo sistema em nome da editora, apresentando a seguinte assinatura no final. O corpo das mensagens está disponível para personalização mais adiante.</message>
+<message key="manager.setup.enableAnnouncements.disable">Permitir a Gerentes da editora incluir notícias.</message>
 	<message key="manager.sections.indexed">Indexado</message>
+   <message key="manager.setup.privacyStatement.description">Política de privacidade</message>
 	<message key="manager.sections.noneCreated">Nenhuma seção criada.</message>
 	<message key="manager.sections.open">Submissões abertas</message>
 	<message key="manager.sections.policy">Políticas da seção</message>
@@ -246,8 +252,11 @@
 	<message key="manager.setup.reviewOptions.reviewerAccessKeysEnabled.description"><![CDATA[<strong>Aviso:</strong> O convite ao avaliador conterá uma URL especial que levará os avaliadores diretamente à página de avaliação da submissão em questão (sendo necessário realizar o login para acessar outras páginas). Para garantir a segurança do processo ao usar esta opção, não é permitido ao editor alterar endereços de e-mail ou incluir destinatários de Cópias Carbono (CCs) ou Cópias Ocultas (BCCs) antes de enviar a mensagem aos avaliadores.]]></message>
 	<message key="manager.setup.reviewOptions.reviewerRatings">Classificação de avaliadores</message>
 	<message key="manager.setup.reviewOptions.reviewerReminders">Lembretes aos avaliadores</message>
+	<message key="manager.setup.reviewOptions.showEnsuringLink"><![CDATA[Oferecer links para informações sobre <a href="javascript:openHelp('{$blindReviewHelpId}')" class="action">Assegurando a avaliação pelos pares cega</a> nas páginas onde autores e avaliadores enviam documentos ao sistema.]]></message>
 	<message key="manager.setup.reviewPolicy">Política de avaliação</message>
 	<message key="manager.setup.searchEngineIndexing">Indexação para mecanismos de busca</message>
+    <message key="manager.setup.searchEngineIndexing.sitemap">Sitemap</message>
+    <message key="manager.setup.searchEngineIndexing.sitemapDescription">Sitemap Descrição</message>
 	<message key="manager.setup.searchEngineIndexingDescription">Para auxiliar usuários de mecanismos de busca a descobrir sua revista, inclua uma breve descrição sobre a revista e palavras-chave relevantes (separadas por ponto-e-vírgula ";").</message>
 	<message key="manager.setup.sectionsAndSectionEditors">Seções e editores de seção</message>
 	<message key="manager.setup.sectionsDefaultSectionDescription">(Caso não sejam incluídas outras seções, todos os itens serão submetidos para Artigos.)</message>
@@ -546,7 +555,8 @@ Poderão ser usados estatísticas individuais de uso, por exemplo, para exibir u
 	<message key="manager.setup.copyrightYearBasis.article">Artigo: o ano padrão será definido a partir da data da publicação do artigo, como numa publicação continuada (publish-as-you-go).</message>
 	<message key="manager.setup.copyrightYearBasis.issue">Edição: o ano padrão será definido a partir da data de publicação da edição.</message>
 	<message key="manager.setup.resetPermissions.confirm">Tem certeza de que deseja redefinir os dados de permissões já atribuídos aos artigos?</message>
-	<message key="grid.genres.title.short">Componentes</message>
+	<message key="grid.action.addNavigationMenu">Adicionar Menu</message>
+<message key="grid.genres.title.short">Componentes</message>
 	<message key="grid.genres.title">Componentes do Artigo</message>
 	<message key="grid.genres.description">Estes componentes são utilizados para fins de atribuição de nomes de arquivo e são apresentados em um menu suspenso no upload dos arquivos. Os gêneros designados ## permitem que o usuário para associar o arquivo com qualquer toda a apresentação 99Z ou um componente específico em número (por exemplo, 02).</message>
 	<message key="plugins.importexport.common.settings">Configurações</message>

@@ -1,3 +1,11 @@
+Adicionei correções na tradução do OJS. Caso seja uma nova instalação você pode baixar o OJS presente neste repositório, caso deseje corrigir a tradução de uma revista em produção baixe o arquivo traducao_pt_br.zip extraia o arquivo e substitua a pasta de idioma PT_BR presente em /locale/pt_BR pela pasta do arquivo compactado.
+
+
+
+
+
+
+
 # Open Journal Systems
 
 > Open Journal Systems (OJS) has been developed by the Public Knowledge Project. For general information about OJS and other open research systems, visit the [PKP web site][pkp].
